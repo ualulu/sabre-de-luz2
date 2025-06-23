@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sabre de Luz </title>
+    <title>Sabre de Luz</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body oncopy="return false" onselectstart="return false" oncontextmenu="return false">
     <div id="app">
       <div class="container">
         <h1>Seja bem-vindo França</h1>
+
+        <!-- Botão para outra página -->
+        <a href="jogo.html">
+          <button class="control-button">Iniciar gameplay</button>
+        </a>
 
         <div class="lightsaber" id="lightsaber">
           <div class="handle">
@@ -24,14 +29,21 @@
             <div class="blade-glow"></div>
           </div>
         </div>
-<div class="controls">
-  <button id="toggleColor" class="control-button">
-    Alternar Cor
-  </button>
-  <button id="toggleBlade" class="control-button">
-    Ligar/Desligar Sabre
-  </button>
-</div>
+
+        <div class="controls">
+          <button id="toggleColor" class="control-button">
+            Alternar Cor
+          </button>
+          <button id="toggleBlade" class="control-button">
+            Ligar/Desligar Sabre
+          </button>
+        </div>
+      </div>
+    </div>
+     <script src="main.js"></script>
+  </body>
+</html>
+
 
       </div>
     </div>
